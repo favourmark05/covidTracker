@@ -11,6 +11,9 @@
   </div>
   <img :src="loadingImage" alt="loader" class="w-100 m-auto">
 </main>
+<footer class="text-center text-white bg-blue-800 p-4 mb-10">
+    <p class="">Built by <a class="text-blue-300" href="https://mfonidomark.netlify.com" target="_blank">MfonidoMark</a></p>
+</footer>
 </template>
 
 <script>
