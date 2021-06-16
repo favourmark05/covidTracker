@@ -9,6 +9,8 @@
               <span class="font-bold">New:</span>
               {{ formatNumber(status.NewConfirmed) }}
               {{ status.CountryCode }}
+              {{ status.Slug }}
+              {{ status.Lat }}
           </div>
           <div class="text-2xl mb-4 text-white">
               <span class="font-bold">Total:</span>
